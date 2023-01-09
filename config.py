@@ -14,6 +14,6 @@ class Config:
     CAPTION = os.environ.get("CAPTION", "")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "document")
     OWNER_ID = os.environ.get("OWNER_ID", 12345)
-    SESSION = "BQBkNy9zPgNhrATo4ziQaXeWYC9EtIen7h_jgsXryKcLknkPZCX12moBpj0QNuAg_W-wvwVzAPKwlTpHJIRki9f_TVQ44HHzBW9GN3aQSjEHO5niJ455ZDwkxEBjImwGXVjx7CcirCEXWnfT269sgC5HBjDzGYZgkXMoWz1IWshbiRl-XNKzUtuIiNgJhKnNWagc0CsVtenXEBQWlFrJi4w7DtrSKO7Y830L1ZR8JKc7IQeCSiegquaF1PEhyb8JGoTirrg0fAi05tps3OkLMT5O_dVO_Bnjk3Y6TRGKxu8l8f-NFJ9jQO5u2Bt6zdkQRSiO9BnzvaJLQczWpjj6Y_ZuVm9SgwA"
+    SESSION = "BQChVlpK-cGUa9KI3bFo05zsf007VY4vzk154GVAmcyO9_NIw6b-Z5KqYx6ceY3J-z_ND_vNS_3TmGkPmmD2_E76Px3f1GdXQThi-kZ0IKs6Mf54RB5OGpsEpeajDZH3HmbVOYJqfg46a7uRR5SZY7hG4T6xqR7l7rERNTLz1pKVXBekIEh_gjaC9thMg6Lf4TwPCp5y7A357DtApZGeqTSJnmYWDHD6DfTAwp4bBEuMolmXDODFdKgKmLadojY59BYMth4CMjZQeiKA0Q0KcdyhdKf9SFeZsiE3UflLzptueA8oL_n-MvWa9fzkMCS8qBsXjwXvR80E60EwMKle4ZHEVm9SgwA"
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
